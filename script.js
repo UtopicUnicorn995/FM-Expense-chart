@@ -10,7 +10,7 @@ $(document).ready(function(){
                 </p>
               </div>`
             )
-            $(`.${data.day} .bar`).height(data.amount * 2)
+            $(`.${data.day} .bar`).height(data.amount * 2.5)
             $(`.${data.day} .bar`).click(function(){
                 $(`.${data.day} .amount`).toggleClass('d-none')
             })

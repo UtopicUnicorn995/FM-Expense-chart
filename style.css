@@ -34,6 +34,7 @@ span{
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .chart-container{
@@ -43,13 +44,13 @@ span{
 .box-circle{
     position: relative;
     left: -15px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 
 .circle{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     position: absolute;
     left: 0%;
@@ -143,7 +144,21 @@ h2{
 }
 
 .d-none{
-    display: none;
+    visibility: hidden;
+}
+@media (max-width: 375px) {
+    .bar-cont{
+        width: 30px;
+    }
+
+    .amount{
+        width: 30px;
+        font-size: 8px;
+    }
+
+    .bar{
+        width: 25px;
+    }
 }
 
 @media (min-width: 768px) {
