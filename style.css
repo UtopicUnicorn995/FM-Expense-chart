@@ -128,7 +128,7 @@ span{
     font-size: 20px;
 }
 
-h2{
+h1{
     font-size: 22px;
     color: hsl(25, 47%, 15%);
 }
@@ -163,15 +163,16 @@ h2{
 
 @media (min-width: 768px) {
     .bar-cont{
-        width: 45px;
+        width: 48px;
     }
 
     .amount{
-        width: 45px;
+        width: 48px;
         font-size: 12px;
     }
 
     .bar{
-        width: 35px;
+        width: 38px;
+        border-radius: 5px 5px 0 0;
     }
 }
